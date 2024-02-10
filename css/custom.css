@@ -1,0 +1,106 @@
+body { font-family: "Commissioner", sans-serif; }
+section { padding-bottom: 3rem; }
+
+/* Headings */
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 { display: block; color: var(--dark); letter-spacing: -.05em; margin: 0 0 1rem; -webkit-font-smoothing: antialiased; font-weight: 700; }
+	h1, .h1 { font-size: 2.6rem; }
+	h2, .h2 { font-size: 2.2rem; }
+	h3, .h3 { font-size: 1.5rem; }
+	h4, .h4 { font-size: 1.25rem; }
+	h5, .h5 { font-size: 1rem; }
+	h6, .h6 { font-size: 0.9rem; }
+
+
+
+/* Header */
+#header .header-container { height: auto; }
+	#header .header-logo { margin: 0; }
+
+
+/* Header Preim */
+.feature-box.feature-box-style-5 .feature-box-icon { padding: 1rem 1.5rem; min-width: auto; }
+.h-preim b { line-height: 1; color: var(--grey); }
+
+
+/* Catalog Item */
+.c-item a { display: block; margin-bottom: 3rem; color: var(--grey); }
+	.c-item a:hover { text-decoration: none; }
+
+		.c-item a b { margin-bottom: 0.5rem; }
+
+		.c-item a .cena { display: block; line-height: 1; font-size: 1rem; }
+		.c-item a .nalichie { display: block; text-align: right; color: green; }
+		.c-item a .podrobnee { text-decoration: underline; text-align: right; line-height: 1; }
+			.c-item a .podrobnee:hover { text-decoration: none; }
+	
+.c-item.c-item-line a { margin-bottom: 0.5rem; }
+
+
+.c-item-line {
+	padding: 10px 15px;
+	border-radius: 14px;
+	box-shadow: 0px 0px 14px rgba(0,0,0,.05);
+	margin-bottom: 15px;
+	transition: .2s ease;
+}
+.c-item-line:hover {
+	background: #fafafa;
+}
+
+.c-item-line h3 {
+	font-size: 20px;
+}
+
+.nalichie {
+	width: fit-content;
+	padding: 5px 15px;
+	background: rgba(98, 172, 110, .05);
+	border-radius: 15px;
+}
+.nalichie i {
+	margin-right: 2px;
+	margin-top: 5px;
+}
+.c-item a .cena {
+	font-size: 14px;
+}
+.c-item.c-item-line a {
+	margin-bottom: 0;
+}
+.c-item-line img {
+	border-radius: 12px;
+}
+
+.c-item a .podrobnee {
+	color: var(--primary);
+	border: 1px solid var(--primary);
+	width: fit-content;
+	padding: 10px 15px;
+	border-radius: 15px;
+	text-decoration: none;
+	transition: .2s ease;
+}
+
+.c-item:hover a .podrobnee {
+	color: #fff;
+	background: var(--primary);
+}
+
+.category-block .card {
+	border-radius: 15px;
+	overflow: hidden;
+}
+
+
+
+
+#header .header-nav.header-nav-links:not(.header-nav-light-text) nav > ul > li > a, #header .header-nav.header-nav-line:not(.header-nav-light-text) nav > ul > li > a {
+	text-transform: initial;
+	font-size: 16px;
+}
+
+.city-container {
+	padding: 5px 15px;
+	display: flex;
+	flex-direction: column;
+}
