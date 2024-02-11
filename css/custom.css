@@ -167,3 +167,8 @@ h2 {
 .owl-stage img {
 	border-radius: 14px;
 }
+
+.c-item .nalichie {
+	padding: 0;
+	background: rgba(0,0,0,0);
+}
