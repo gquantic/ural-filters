@@ -154,3 +154,16 @@ h2 {
 	font-size: 30px;
 	font-weight: 500;
 }
+
+
+.product-thumb-info {
+	border-radius: 14px;
+	overflow: hidden;
+}
+.badge {
+	border-radius: 14px;
+}
+
+.owl-stage img {
+	border-radius: 14px;
+}
