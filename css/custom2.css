@@ -190,3 +190,19 @@ h2 {
 .simple-search i {
 	font-size: 18px;
 }
+
+.product .product-thumb-info {
+	background: #fff;
+}
+
+.product .product-thumb-info .product-thumb-info-image {
+	min-height: 261px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.product-thumb-info-image img {
+	width: auto;
+	max-width: 100%;
+}
