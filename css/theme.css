@@ -7884,8 +7884,8 @@ html[xmlns] .clearfix {
 	color: var(--primary) !important;
 }
 
-.text-color-hover-black:hover, .text-hover-black:hover {
-	color: black !important;
+.text-color-hover-white:hover, .text-hover-white:hover {
+	color: rgba(255, 255, 255, 0.7) !important;
 }
 
 .text-color-hover-primary-100:hover, .text-hover-primary-100:hover {
@@ -8085,6 +8085,7 @@ html[xmlns] .clearfix {
 
 .text-color-dark, .text-dark {
 	color: white !important;
+	transition: .2s ease;
 }
 
 .text-color-dark1, .text-dark1 {
