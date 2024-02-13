@@ -212,3 +212,12 @@ h2 {
 .simple-search i {
 	font-size: 18px;
 }
+.simple-search .btn {
+	display: flex;
+	align-items: center;
+}
+.simple-search .search-text {
+	font-family: "Commissioner", sans-serif;
+	font-size: 14px;
+	color: var(--default) !important;
+}

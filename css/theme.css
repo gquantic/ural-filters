@@ -3933,7 +3933,7 @@ html.sticky-header-enabled.sticky-header-active #header .header-logo-sticky-chan
 @media (min-width: 992px) {
 	#header .header-body:not(.h-100) {
 		height: auto !important;
-		background-color: rgba(0,0,0,.04);
+		background-color: #f5f5f5;
 	}
 }
 
@@ -14307,4 +14307,27 @@ html.gap-outside .pin-wrapper .sticky-wrapper.sticky-effect-active .sticky-body 
 html.gap-outside .pin-wrapper .sticky-wrapper.sticky-effect-active .sticky-body .container-fluid {
 	padding-left: 25px;
 	padding-right: 25px;
+}
+.pt-serif-regular {
+	font-family: "PT Serif", serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.pt-serif-regular-italic {
+	font-family: "PT Serif", serif;
+	font-weight: 400;
+	font-style: italic;
+}
+
+.pt-serif-bold {
+	font-family: "PT Serif", serif;
+	font-weight: 700;
+	font-style: normal;
+}
+
+.pt-serif-bold-italic {
+	font-family: "PT Serif", serif;
+	font-weight: 700;
+	font-style: italic;
 }
