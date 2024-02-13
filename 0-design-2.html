@@ -45,7 +45,7 @@
 <div class="body">
 
 	<header id="header" data-plugin-options="{'stickyEnabled': true, 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': false, 'stickyStartAt': 70, 'stickySetTop': '-70px', 'stickyChangeLogo': true}">
-		<div class="header-body border-0 box-shadow-none">
+		<div class="header-body border-0 box-shadow-none" style="background-color: white;">
 			<div class="header-container container pt-2 pb-2">
 				<div class="header-row py-2">
 					<div class="header-column">
@@ -59,12 +59,12 @@
 					</div>
 					<div class="header-column justify-content-between align-items-center flex-row">
 
-						<div class="pe-4">
+						<div class="pe-4" style="color: var(--default);">
 							Слоган в шапке
 						</div>
 						<div class="pe-4">
 							<div class="header-row">
-								<a class="nav-link" href="#" role="button" id="dropdownCity1" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<a class="nav-link" href="#" role="button" id="dropdownCity1" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: var(--primary);">
 									<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="15px" height="15px" viewBox="-3 0 20 20" version="1.1" style="margin-top: -3px;">
 										<g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
 											<g id="Dribbble-Light-Preview" transform="translate(-423.000000, -5439.000000)" fill="#000000">
@@ -90,7 +90,7 @@
 						</div>
 						<div class="pe-4">
 							<div class="header-row">
-								<a class="nav-link" href="#" role="button" id="dropdownCity2" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<a class="nav-link" href="#" role="button" id="dropdownCity2" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: var(--primary);">
 									<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="15px" height="15px" viewBox="-3 0 20 20" version="1.1" style="margin-top: -3px;">
 										<g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
 											<g id="Dribbble-Light-Preview" transform="translate(-423.000000, -5439.000000)" fill="#000000">
@@ -117,7 +117,7 @@
 
 
 						<div class="header-nav-features">
-							<a href="tel:0123456789" class="d-flex align-items-center text-decoration-none text-color-dark text-color-hover-primary font-weight-semibold ms-1 me-3">
+							<a href="tel:0123456789" class="d-flex align-items-center text-decoration-none text-color-dark1 text-color-hover-primary font-weight-semibold ms-1 me-3">
 								<i class="icon icon-phone text-4-5 me-2"></i>
 								info@email.ru
 							</a>
@@ -229,7 +229,7 @@
 							<div class="simple-search input-group">
 								<input class="form-control text-1" id="headerSearch" name="q" type="search" value="" placeholder="Поиск по товарам...">
 								<button class="btn" type="submit" aria-label="Search">
-									<i class="icons icon-magnifier header-nav-top-icon text-color-dark text-color-hover-primary top-2"></i>
+									<i class="icons icon-magnifier header-nav-top-icon text-color-dark1 text-color-hover-primary top-2" style="font-size: 16px;">&nbsp;Найти</i>
 								</button>
 							</div>
 						</form>
@@ -303,7 +303,7 @@
 			<div class="container">
 
 				<div class="overflow-hidden">
-					<h1 class="text-color-dark line-height-1 mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="300">Популярные позиции</h1>
+					<h1 class="text-color-dark1 line-height-1 mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="300">Популярные позиции</h1>
 				</div>
 				<div class="custom-divider divider divider-primary divider-small my-3">
 					<hr class="my-0 appear-animation" data-appear-animation="customLineProgressAnim" data-appear-animation-delay="700">
@@ -312,7 +312,7 @@
 
 				<div class="products product-thumb-info-list">
 
-					<div class="c-item c-item-line">
+					<div class="card c-item c-item-line">
 						<a href="">
 							<div class="row align-items-center">
 								<div class="col-lg-1">
@@ -328,17 +328,18 @@
 								<div class="col-lg-2">
 									<span class="nalichie"><i class="fa-regular fa-circle-check"></i> В наличии</span>
 								</div>
-								<div class="col-lg-2">
+								<div class="podrobnee-block col-lg-2">
 									<span class="cena">Цена по запросу</span>
+									<div class="col-lg-2 ">
+										<div class="podrobnee">Заказать</div>
+									</div>
 								</div>
-								<div class="col-lg-2 ">
-									<div class="podrobnee">Заказать</div>
-								</div>
+
 							</div>
 						</a>
 					</div>
 
-					<div class="c-item c-item-line">
+					<div class="card c-item c-item-line">
 						<a href="">
 							<div class="row align-items-center">
 								<div class="col-lg-1">
@@ -354,17 +355,17 @@
 								<div class="col-lg-2">
 									<span class="nalichie"><i class="fa-regular fa-circle-check"></i> В наличии</span>
 								</div>
-								<div class="col-lg-2">
+								<div class="podrobnee-block col-lg-2">
 									<span class="cena">Цена по запросу</span>
-								</div>
-								<div class="col-lg-2 ">
-									<div class="podrobnee">Заказать</div>
+									<div class="col-lg-2 ">
+										<div class="podrobnee">Заказать</div>
+									</div>
 								</div>
 							</div>
 						</a>
 					</div>
 
-					<div class="c-item c-item-line">
+					<div class="card c-item c-item-line">
 						<a href="">
 							<div class="row align-items-center">
 								<div class="col-lg-1">
@@ -380,17 +381,17 @@
 								<div class="col-lg-2">
 									<span class="nalichie"><i class="fa-regular fa-circle-check"></i> В наличии</span>
 								</div>
-								<div class="col-lg-2">
+								<div class="podrobnee-block col-lg-2">
 									<span class="cena">Цена по запросу</span>
-								</div>
-								<div class="col-lg-2 ">
-									<div class="podrobnee">Заказать</div>
+									<div class="col-lg-2 ">
+										<div class="podrobnee">Заказать</div>
+									</div>
 								</div>
 							</div>
 						</a>
 					</div>
 
-					<div class="c-item c-item-line">
+					<div class="card c-item c-item-line">
 						<a href="">
 							<div class="row align-items-center">
 								<div class="col-lg-1">
@@ -406,11 +407,11 @@
 								<div class="col-lg-2">
 									<span class="nalichie"><i class="fa-regular fa-circle-check"></i> В наличии</span>
 								</div>
-								<div class="col-lg-2">
+								<div class="podrobnee-block col-lg-2">
 									<span class="cena">Цена по запросу</span>
-								</div>
-								<div class="col-lg-2 ">
-									<div class="podrobnee">Заказать</div>
+									<div class="col-lg-2 ">
+										<div class="podrobnee">Заказать</div>
+									</div>
 								</div>
 							</div>
 						</a>

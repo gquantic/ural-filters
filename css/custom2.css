@@ -76,7 +76,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 { display: block; color: va
 	border: 1px solid var(--primary);
 	width: fit-content;
 	padding: 10px 15px;
-	border-radius: 15px;
+	border-radius: 3px;
 	text-decoration: none;
 	transition: .2s ease;
 }
@@ -169,7 +169,7 @@ h2 {
 }
 
 .owl-stage img {
-	border-radius: 14px;
+	border-radius: 3px;
 }
 
 .c-item .nalichie {

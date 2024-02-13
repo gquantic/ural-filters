@@ -81,6 +81,28 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 { display: block; color: va
 	transition: .2s ease;
 }
 
+@media (max-width:991px) {
+	.c-item a .podrobnee-block.col-lg-2 {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.c-item a .podrobnee {
+		float: right;
+	}
+}
+
+@media (min-width:992px) {
+	.c-item a .podrobnee-block.col-lg-2 {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.c-item a .podrobnee {
+		margin-left: 50px;
+	}
+}
+
 .c-item:hover a .podrobnee {
 	color: #fff;
 	background: var(--primary);

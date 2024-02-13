@@ -19,7 +19,7 @@ html {
 
 body {
 	background-color: var(--light);
-	color: var(--default);
+	color: white;
 	font-family: "Poppins", Arial, sans-serif;
 	font-size: 14px;
 	line-height: 26px;
@@ -72,6 +72,7 @@ li {
 #header {
 	position: relative;
 	z-index: 1030;
+	border-bottom: 1px solid rgba(0,0,0,.05);
 }
 
 #header .header-body {
@@ -277,6 +278,7 @@ li {
 
 #header .header-top.header-top-small-minheight {
 	min-height: 38px;
+	background-color: var(--primary);
 }
 
 #header .header-top.header-top-semi-transparent {
@@ -3931,6 +3933,7 @@ html.sticky-header-enabled.sticky-header-active #header .header-logo-sticky-chan
 @media (min-width: 992px) {
 	#header .header-body:not(.h-100) {
 		height: auto !important;
+		background-color: rgba(0,0,0,.04);
 	}
 }
 
@@ -7881,6 +7884,10 @@ html[xmlns] .clearfix {
 	color: var(--primary) !important;
 }
 
+.text-color-hover-black:hover, .text-hover-black:hover {
+	color: black !important;
+}
+
 .text-color-hover-primary-100:hover, .text-hover-primary-100:hover {
 	color: var(--primary-100) !important;
 }
@@ -8077,6 +8084,10 @@ html[xmlns] .clearfix {
 }
 
 .text-color-dark, .text-dark {
+	color: white !important;
+}
+
+.text-color-dark1, .text-dark1 {
 	color: var(--dark) !important;
 }
 

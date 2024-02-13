@@ -14474,15 +14474,15 @@ html.boxed .nav-secondary.sticky-active {
 
 /* Nav Link Colors */
 .nav-link {
-	color: var(--primary);
+	color: white;
 }
 
 .nav-link:hover {
-	color: var(--primary--100);
+	color: white;
 }
 
 .nav-link:focus {
-	color: var(--primary--100);
+	color: white;
 }
 
 .nav-link:active {
