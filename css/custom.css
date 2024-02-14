@@ -221,3 +221,15 @@ h2 {
 	font-size: 14px;
 	color: var(--default) !important;
 }
+@media (max-width: 991px) {
+	#header .header-nav-features {
+		position: relative;
+		padding-left: 0;
+		margin-left: 0;
+	}
+}
+@media (min-width: 992px) {
+	.loc-block {
+		display: contents;
+	}
+}
