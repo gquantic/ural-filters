@@ -215,3 +215,7 @@ h2 {
 .margin-left-5 {
 	margin-left: 5px;
 }
+
+.c-item-line {
+	border-radius: 3px;
+}

@@ -14331,3 +14331,21 @@ html.gap-outside .pin-wrapper .sticky-wrapper.sticky-effect-active .sticky-body 
 	font-weight: 700;
 	font-style: italic;
 }
+@media (max-width: 991px) {
+	.row {
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+	.border-prod {
+		margin-top: 20px;
+	}
+	#header .flex-row {
+
+	}
+	.slogan {
+		display: none;
+	}
+	.loc-block {
+		display: -webkit-box;
+	}
+}
